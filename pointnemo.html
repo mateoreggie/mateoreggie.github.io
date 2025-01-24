@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<head>
+  <meta lang ="en">
+  <meta charset = "utf-8">
+  <title>SONAR VISION</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+  <div id="sonar_below" class="draggable">
+    <div class="taskbar">
+      <label>BELOW</label>
+      <button class="minimize">_</button>
+      <button class="close">X</button>
+      
+    </div>
+    <canvas id="c" class="content"></canvas>
+  </div>
+
+  <div id="sonar_above" class="draggable">
+    <div class="taskbar">
+      <label>ABOVE</label>
+      <button class="minimize">_</button>
+      <button class="close">X</button>
+      
+    </div>
+
+    <canvas id="c2" class="content"></canvas>
+  </div>
+
+  <div id="falling" class="draggable">
+      <div class="taskbar">
+	<label>DECOMMISSIONING</label>
+	<button class="minimize">_</button>
+	<button class="close">X</button>
+      </div>
+      <div class="content" id="poem1">
+     </div>
+  </div>
+
+   
+   <div id="window" class="draggable">
+      <div class="taskbar">
+	<label>LONG GONE</label>
+	<button class="minimize">_</button>
+	<button class="close">X</button>
+      </div>
+      <pre id="frame" src="./grave.txt" class="content"></pre>
+      <script>
+	function populatePre(url) {
+    var xhr = new XMLHttpRequest();
+    xhr.onload = function () {
+        document.getElementById('frame').textContent = this.responseText;
+    };
+    xhr.open('GET', url);
+    xhr.send();
+}
+	populatePre('./grave.txt');
+      </script>
+  </div>
+
+   <div id="hydrophone" class="draggable">
+     <script>
+       let audio_bts = [
+	   "play1",
+	   "play2",
+	   "play3"
+       ];
+       var curr_audio;
+       
+       function onAudioBtClick(event){
+	   let bt = event.currentTarget;
+	   let audio = document.querySelector("#audio").querySelector("audio");
+	   let desc = document.querySelector("#audio_descriptor");
+	   
+	   switch(bt.id){
+	   case "play1":{
+	       audio.src = "./audio/tv_static.mp3";
+	       desc.innerText = "(an echo of your siblings chatter)";
+	       audio.volume = 0.3;
+
+	       break;
+	   }
+	   case "play2":{
+	       audio.src = "./audio/TUDelft.mp3";
+	       audio.volume = 1;
+	       desc.innerText = "(microbial vibrations)";
+	       break;
+	   }
+	   case "play3":{
+
+	       audio.src = "./audio/earthsong.mp3";
+	       audio.volume = 1;
+	       desc.innerText = "(the earth humming)";
+
+	       break;
+	   }
+	   }
+	   //reset all buttons
+	   audio_bts.forEach((value)=>{
+	       let obj = document.querySelector("#"+value);
+
+	       if ((value == bt.id) && (bt.id != curr_audio)){
+		   obj.innerText = " | | ";
+	       }
+	       else{
+		   obj.innerText = " > > > ";
+	       }
+	   });
+	   
+	   if (bt.id != curr_audio){
+	       curr_audio = bt.id;
+	       desc.style.visibility = 'visible';
+	       audio.muted = false;
+	   }
+	   else{
+	       audio.muted = true;
+	       desc.style.visibility = 'hidden';
+	       curr_audio = "";
+	   }
+	   
+	   
+       }
+
+       
+       
+      </script>
+      <div class="taskbar">
+	<label>SURROUNDINGS</label>
+	<button class="minimize">_</button>
+	<button class="close">X</button>
+      </div>
+
+      <div id="audio" class="content">
+      <audio autoplay muted loop>
+	<source src="./audio/tv_static.mp3" type="audio/mp3" type="audio/mp3"></source>
+	Your browser does not support audio.
+      </audio>
+      <button id="play1" >> > ></button>
+      <button id="play2" >> > ></button>
+      <button id="play3" >> > ></button>
+      </div>
+  </div>
+  
+  <a id="first_impressions" style="top:207px; left:202px;">remember your fall</a> <!-- linked to starting poetry window -->
+  <a id="lookup">look up.</a> <!-- linked to first sonar window -->
+  <a id="look_inside" style="top:12779px; left:7092px;">others?</a> <!-- linked to iframe -->
+  <a id="listen" style="top:10645px; left:96px;">listen.</a> <!-- linked to audio window  -->
+
+  <pre id="intro_poem"></pre>
+  
+  <pre id="longfall"></pre>
+  
+  <pre id="ground"></pre>
+
+  <!-- lead in for "look up" sonar image - explain a little what that is-->
+  <pre id="scan_the_void" class="hanging_poetry">
+   
+     oceanic deadzone.
+
+
+        pole of inaccessiblity.
+
+
+
+       the energy of life spread thin
+
+
+
+
+    among microbes.
+
+
+
+
+
+
+     
+            and yet,
+  </pre>
+  <pre id="from_orbit" class="hanging_poetry">
+    from orbit
+    </pre>
+  <a id="down"> scan the ground </a> <!-- second sonar window -->
+
+<!--  <div id="scrollbarV">
+    <button class="down"></button>
+    <button class="up"></button>
+  </div>
+  <div id="scrollbarH">
+    <button class="left"></button>
+    <button class="right"></button>
+  </div> -->
+
+  <pre style="top:10592px;left:580px;visibility:hidden;" id="audio_descriptor" class="hanging_poetry">
+    (something);
+  </pre>
+  <script src="./words.js"></script>
+  <script src="./click-and-drag.js"></script>
+  <script src="./twgl.min.js"></script>
+  <script src="./sonar.js"></script>
+  <script src="./above_sonar.js"></script>
+  </body>
