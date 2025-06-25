@@ -113,7 +113,7 @@ function makeWindow(parentDoc, event){
 		img.style.width="auto";img.style.height="95%";img.style.display="inline-block";img.style.marginTop="1.2%";
 		
 		
-		bt.innerText="X";bt.style.position="absolute";bt.style.left="97.3%";bt.style.top="9px";
+		bt.innerText="X";bt.style.position="absolute";bt.style.left="15px";bt.style.top="9px";
 		bt.className="blowupExit";bt.style.backgroundColor="white";bt.style.fontFamily="\'Roboto'\,sans-serif";
 		bt.style.fontWeight="200";bt.style.borderStyle="none";bt.style.fontSize="30px";
 		
