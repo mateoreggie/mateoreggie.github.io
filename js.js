@@ -4,6 +4,7 @@ var promises = [];
 var overlaySelector = ".imageoverlay";
 var windowExpanded = false;
 
+/* github doesn't allow for this type of shit, apparently it's a cross origin request.
 window.parent.addEventListener("load", (event)=>{
   
     let query = window.parent.location.search;
@@ -18,7 +19,7 @@ window.parent.addEventListener("load", (event)=>{
 	window.location.href = "./" + query.split("?")[1] + "/gallery.html";
     }
     
-})
+}) */ 
 
 function generateId(){
 	const array=new Uint32Array(1);
