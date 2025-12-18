@@ -4,6 +4,21 @@ var promises = [];
 var overlaySelector = ".imageoverlay";
 var windowExpanded = false;
 
+window.parent.addEventListener("load", (event)=>{
+  
+    let query = window.parent.location.search;
+    let pathname = window.location.pathname.split("/");
+    let curr = pathname[pathname.length-1];
+     
+    if ((query) && (curr != "gallery.html")){
+
+	//console.log(cookies);
+	//console.log(curr);
+	//console.log(window.location.pathname);
+	window.location.href = "./" + query.split("?")[1] + "/gallery.html";
+    }
+    
+})
 
 function generateId(){
 	const array=new Uint32Array(1);
@@ -208,9 +223,8 @@ function onloadIndex(event){
 	}
 	
 async function onload(selector){
-	
 	var imgs = Array.from(document.querySelectorAll(selector));
-	
+    
 	imgs.forEach((image)=>{
 		//console.log(image);
 		image.addEventListener("mouseover", colorIn);
