@@ -1,0 +1,235 @@
+body {
+    color:white;
+    background-color:black;
+    font-family: monospace;
+}
+
+pre {
+    
+    color:gold;
+    white-space:pre;
+    text-align:left;
+    user-select:none;
+   
+}
+
+
+#window{display:none;}
+
+#hydrophone{
+    display:none;
+}
+
+#falling {
+    left: 404px;
+    top: 71px;
+    display:none;
+}
+
+#falling p{
+    color:orange;
+    opacity:0.4;
+    padding:5px;
+    user-select:none;
+    //text-align:center
+}
+
+#falling p:hover{
+    opacity:1;
+    color:yellow;
+    text-shadow: 2px 2px #333333;
+    margin-bottom:5px;
+    cursor:help;
+}
+
+#falling .content{
+    width:500px;
+    height:200px;
+    overflow-y:scroll;
+    background-image:url("./images/STATIC.gif");
+}
+
+#falling .bg{
+    width:100%;
+    height:100%;
+    top:0px;
+    z-index:-1;
+    position:absolute;
+    opacity:0.15;
+}
+
+#audio{
+    width:250px;
+    height:50px;
+}
+
+#audio button{
+    width:31%;
+    height:99%;
+    font-weight:bold;
+    font-size:14px;
+    
+
+    border-width:4px;
+
+    color:#444444;
+    border-color:#111111;
+    background-color:#222222;
+    text-shadow: #111111 3px 3px;
+    
+    //margin-top:10px;
+    //margin-bottom:10px;
+    //margin-left:10%;
+}
+
+#audio button:hover{
+
+    color:gray;
+    text-shadow: #222222 3px 3px;
+    
+    background-color:#333333;
+    border-color:#222222;
+}
+
+a {
+    color:yellow;
+    position:absolute;
+    text-decoration-line:underline;
+}
+
+#down{
+    width:200px;
+    left:2319px;
+    top:11340px;
+}
+
+#lookup {
+    top:6342px;
+    left: 198px;
+}
+
+#frame{
+    overflow-y:scroll;
+    width:auto;
+    height:150px;
+}
+
+a:hover{
+    color:orange;
+    font-style:italic;
+    cursor:pointer;
+    margin-left:5px;
+}
+
+.draggable{
+    width:auto;
+    height:auto;
+
+    //display:inline;
+    
+    min-width:200px;
+    background-color:black;
+    position:absolute;
+
+    border-width:thin;
+    border-color: #B06603;
+    border-style:solid;
+}
+
+#sonar_below{
+    top: -6000px;
+    left:649px;
+    
+}
+
+#scan_the_void{
+    left:46px;
+    top:5959px;
+}
+#from_orbit{
+    left:235px;
+    top:242px;
+}
+.hanging_poetry{
+    position:absolute;
+    color:#B06609;
+    opacity:0.9;
+}
+
+#sonar_above{
+    top:-6000px;
+    left:507px;
+    
+}
+
+#sonar_below canvas{
+ // background-image:url("./images/OVERLAY.png"), url("./images/01.jpg");
+}
+
+#sonar_above canvas{
+  //background-image:url("./images/OVERLAY.png"), url("./images/above/01.png");
+}
+
+.taskbar{
+    width:99%;
+    height:20px;
+    background-color:#BF770A;
+    display:flex;
+    border-style:groove;
+    border-color:#B06603;
+}
+
+.taskbar label:hover{cursor:pointer;}
+
+.taskbar button{
+    width:auto;
+    height:100%;
+    order:2;
+    color:white;
+    font-weight:bold;
+    background-color: #bf770a;
+    border-color:#Af5520;
+    text-shadow: 1px 1px black;
+}
+
+.taskbar button:hover{
+    background-color:#bf880a;
+    cursor:pointer;
+}
+
+.taskbar label{
+    order:0;
+    flex-grow: 1;
+    vertical-align:middle;
+    margin-left:5px;
+    user-select:none;
+
+    text-shadow:1px 1px black;
+    //font-weight:bold;
+    font-family: monospace;
+    font-size:15px;
+
+    
+}
+
+canvas {
+    width:350px;
+    height:350px;
+    //margin-left:7.5%;
+    //margin-top:1%;
+    
+    
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+
+#scrollbarV {
+    position:sticky;
+    top:5px;
+    right:0px;
+}
+
+#scrollbarH {
+    position:sticky;
+    bottom:10px;
+}

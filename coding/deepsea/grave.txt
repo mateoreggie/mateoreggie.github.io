@@ -1,0 +1,185 @@
+Most of the precise locations are from Russian Progress cargo ships.
+Note: "POR" just means Pacific, "IOR" is Indian  (the OR = "ocean region")
+There are many more deorbits for which I don't currently have locations
+I have NOT done a comprehrensive literature search; this list could be greatly improved.
+ - Jonathan
+
+CAT     INTLDES     NAME                        DEORBIT DATE UTC    LOCATION      OWNER STATE
+A00303 1962 B PI    FTV 2405 RV                  1962 Nov 12 2240?  POR           US  
+S03020 1967-107A    Kosmos-188                   1967 Nov  2 0730?  Irkutsk       SU  
+S03033 1967-113B    Saturn S-IVB-501             1967 Nov  9 2006?  24N 155E?     US  
+A01319 1968-005     SRV Mission 4311-1           1968 Jan 28 2357?  POR (Sank)    US  
+A01374 1968-U01     OGCh                         1968 May 20 2231?  POR           SU  
+A01378 1968-U02     OGCh                         1968 May 27 2341?  POR           SU  
+A01742 1970-002     SRV Mission 4325-2           1970 Jan 28 2350?  POR (Sank)    US  
+S05160 1971-032A    Salyut                       1971 Oct 11 0350?  POR           SU  
+A02013 1971-070A    Agena D                      1971 Sep  3 2347?  Alaska        US  
+A02100 1972-016A    Agena D                      1972 Apr 11 0057?  Eniwetok      US  
+S06382 1973-014A    OPS 8410                     1973 May 19 0111   Shemya        US  
+S06656 1973-032B    Saturn S-IVB-206             1973 May 25 1900   176W 31N      US  
+S06937 1973-090B    Saturn S-IVB-208             1973 Nov 16 2003   170W 26.5N    US  
+S07342 1974-046A    Salyut-3                     1975 Jan 24 0820?  POR           SU  
+S07591 1974-104A    Salyut-4                     1977 Feb  2 2355?  POR           SU  
+S08033 1975-066B    Saturn S-IVB-210             1975 Jul 16 0138   POR           US  
+S08911 1976-057A    Salyut-5                     1977 Aug  8 1320?  POR           SU  
+S10382 1977-097A    Salyut-6                     1982 Jul 29 1010?  POR           SU  
+S10434 1977-104A    Kosmos-961                   1977 Oct 26 0837?  36N 143E      SU  
+S16609 1986-017A    Mir                          2001 Mar 23 0555   40S 160W      SU  
+S18225 1987-064A    Kosmos-1870                  1989 Jul 29        POR?          SU  
+S21213 1991-024A    Almaz-1                      1992 Oct 17        POR?          SU  
+S21225 1991-027B    Compton Observatory          2000 Jun  4        SE Hawaii     US  
+S22904 1993-071A    Kosmos-2267                  1994 Dec 28 2050?  Pacific?      RU  
+S23218 1994-053A    Kosmos-2290                  1995 Apr  4 1758?  Pacific       RU  
+S23868 1996-031A    MSTI 3                       1997 Dec 11        S POR         US  
+A05933 1997-030     Blok DM2 No. 1L              1997 Jun 18 1628   SW POR        SU  
+A05973 1997-051     Blok DM2 No. 2L              1997 Sep 14 0401?  166.6W 45.5S  SU  
+A06066 1998-021     Blok DM2 No. 4L              1998 Apr  7 0438?  SW POR        SU  
+A06168 1999-004     Ikar No. 1                   1999 Feb 10 0633?  50 55S 140 0W RU  
+S25654 1999-012F    Ikar No. 2?                  1999 Mar 16 0542?  IOR?          RU  
+S25681 1999-019F    Ikar No. 3                   1999 Apr 16 0323?  IOR?          RU  
+S25912 1999-049F    Ikar No. 4                   1999 Sep 23 1716?  IOR?          RU  
+S25948 1999-058F    Ikar No. 5                   1999 Oct 20 0230?  IOR?          RU  
+S25966 1999-062F    Ikar No. 6?                  1999 Nov 24 0335?  110E 52S?     RU  
+A06260 2000-009     Demonstrator-1 NTU           2000 Feb  9 0757?  53E 51N       RU  
+S26301 2000-021A    Progress M1-2                2000 Oct 15 2329   Pacific       RU  
+S26412 2000-041C    Fregat                       2000 Jul 16 1916?  SE Pacific    RU  
+S26461 2000-044A    Progress M1-3                2000 Nov  1 0753   POR           RU  
+S26465 2000-045C    Fregat No. 1004              2000 Aug  9 1741   21 28S 70 06W RU  
+S26570 2000-064A    Progress M-43                2001 Jan 29 0258   Pacific       RU  
+S26615 2000-073A    Progress M1-4                2001 Feb  8 1350   Pacific       RU  
+S26713 2001-008A    Progress M-44                2001 Apr 16 1411   46.5S 140.2W  RU  
+S26773 2001-021A    Progress M1-6                2001 Aug 22 0900?  POR           RU  
+S26890 2001-036A    Progress M-45                2001 Nov 22 2135   POR           RU  
+S26908 2001-041A    Progress M-SO1               2001 Sep 27 0009   POR           RU  
+S26983 2001-051A    Progress M1-7                2002 Mar 20 0220   POR           RU  
+S27395 2002-013A    Progress M1-8                2002 Jun 25 1213   POR           RU  
+S27454 2002-033A    Progress M-46                2002 Oct 14 1021   POR           RU  
+S27531 2002-045A    Progress M1-9                2003 Feb  1 2000   46 04S 145 29WRU  
+S27557 2002-053A    Astra 1K                     2002 Dec 10 0119   SW POR?       L   
+S27647 2003-003A    Columbia (STS-107)           2003 Feb  1 1400   Texas         US  
+S27681 2003-006A    Progress M-47                2003 Aug 28 0238   40 39S 133 46WRU  
+S27873 2003-039A    Progress M-48                2004 Jan 28 1357   POR           RU  
+S28142 2004-002A    Progress M1-11               2004 Jun  3 1037   POR           RU  
+S28261 2004-019A    Progress M-49                2004 Jul 30 1117   44 28S 142 46WRU  
+S28399 2004-032A    Progress M-50                2004 Dec 22 2324   POR           RU  
+S28906 2005-047A    Progress M-55                2006 Jun 19 1741   POR           RU  
+S29245 2006-025A    Progress M-57                2007 Jan 17 0315   POR           RU  
+S29402 2006-039A    Kosmos-2423                  2006 Nov 17        Exploded      RU  
+S29503 2006-045A    Progress M-58                2007 Mar 28 2330   44 15S 142 24WRU  
+S29714 2007-002A    Progress M-59                2007 Aug  1 1927   POR           RU  
+A07293 2007-048     Fregat                       2007 Oct 20 2350?  POR           RU  
+A07320 2007-061C    Fregat No. 1015-2            2007 Dec 14 1724   POR           RU  
+S32686 2008-008A    Jules Verne                  2008 Sep 29 1331   130W 45S      I-ES
+S32687 2008-008B    EPS 528                      2008 Mar  9 0648?  SW POR        F   
+S33593 2009-006A    Progress M-66                2009 May 18 1514   42 34S 139 24WRU  
+S34905 2009-024A    Progress M-02M               2009 Jul 13 1628   42 37S 140 34WRU  
+S35817 2009-048A    HTV 1                        2009 Nov  1 2138   S Pacific     J   
+S35948 2009-056A    Progress M-03M               2010 Apr 27 1850   42 51S 141 26WRU  
+S36361 2010-003A    Progress M-04M               2010 Jul  1 1440   37 47S 124 51WRU  
+S36521 2010-018A    Progress M-05M               2010 Nov 15 0935   47 48S 139 54WRU  
+S36748 2010-033A    Progress M-06M               2010 Sep  6 1253   42 07S 138 25WRU  
+S37156 2010-044A    Progress M-07M               2011 Feb 20 1658   42 30S 139 24WRU  
+A07764 2010-046     Centaur AV-025               2010 Sep 21 0445?  SW POR?       US  
+S37194 2010-054G    Fregat No. 1023              2010 Oct 19 1948?  SW POR        RU  
+S37196 2010-055A    Progress M-08M               2011 Jan 24 0607   51 18S 135 54WRU  
+A07782 2011-003B    H-2B F2 Stage 2              2011 Jan 22 0745?  138W 51S?     J   
+S37359 2011-004A    Progress M-09M               2011 Apr 26 1336   38 54S 128 48WRU  
+S37368 2011-007A    Johannes Kepler              2011 Jun 21 0248   48.63S 147.02EI-ES
+S37369 2011-007B    EPS 544                      2011 Feb 17 0030?  SW POR        F   
+A07804 2011-010     Centaur AV-026               2011 Mar  5 2345?  95E 27S       US  
+A07807 2011-014     Centaur AV-027               2011 Apr 15 0637?  104W 45S      US  
+S37396 2011-017A    Progress M-10M               2011 Oct 29 1300   49 54S 137 48WRU  
+S37679 2011-027A    Progress M-11M               2011 Sep  1 1021   40 08S 135 02WRU  
+S37798 2011-045A    Ekspress AM-4                2012 Mar 25 1332?  40N 175W      RU  
+S37857 2011-062A    Progress M-13M               2012 Jan 25 0318   51.4S 128.2W  RU  
+A07904 2011-076     Fregat No. 1021              2011 Dec 17 0627?  IOR?          RU  
+A07907 2011-080G    Fregat No. 1027              2011 Dec 28        SW POR?       RU  
+S38073 2012-004A    Progress M-14M               2012 Apr 28 1439   49 12S 131 24WRU  
+S38097 2012-010B    EPS 553                      2012 Mar 23 0709?  160W 48S      F   
+S38222 2012-015A    Progress M-15M               2012 Aug 20 1612   51 00S 127 48WRU  
+A07931 2012-033B    Centaur AV-023               2012 Jun 20 2115?  4N 175E?      US  
+S38706 2012-038A    Kounotori 3 gouki            2012 Sep 14 0559   129.0W- 51.9S J   
+S38712 2012-039F    Fregat No. 1019              2012 Jul 22 1049   179W  47S     RU  
+S38738 2012-042A    Progress M-16M               2013 Feb  9 1705   44 42S 142 48WRU  
+S38754 2012-046C    Centaur AV-032               2012 Aug 30 1940?  22W  5S?      US  
+S38772 2012-049B    Fregat No. 1037              2012 Sep 17 1900?  155W 57S?     RU  
+S38975 2012-060A    Progress M-17M               2013 Apr 21 1502   51.5S 128.1W  RU  
+A07982 2012-068B    Fregat No. 1020              2012 Dec  2 0440?  20S 85E       RU  
+S39082 2013-007A    Progress M-18M               2013 Jul 26 0042   51.7S 132.7W  RU  
+S39148 2013-017A    Progress M-19M               2013 Jun 19 1339   46.3S 140.5W  RU  
+S39176 2013-027B    EPS 592                      2013 Jun  6 0036?  IOR           F   
+S39219 2013-039A    Progress M-20M               2014 Feb 11 1554   47.3S 138.9W  RU  
+S39221 2013-040A    Kounotori 4 gouki            2013 Sep  7 0637   POR           J   
+S39456 2013-069A    Progress M-21M               2014 Jun  9 1723   48 12S 139 36WRU  
+S39502 2014-003A    SS C. Gordon Fullerton       2014 Feb 19 1823   POR           US  
+S39506 2014-005A    Progress M-22M               2014 Apr 18 1546   51 12S 126 42WRU  
+A08094 2014-016B    Fregat No. 1038              2014 Apr  3 2236?  S AOR?        RU  
+S39648 2014-018A    Progress M-23M               2014 Jul 31 2243   50 42S 126 12WRU  
+A08200 2014-022     Falcon 9-009 Stage 2         2014 Apr 18 2024?  IOR?          US  
+A08233 2014-037     Fregat No. 1025              2014 Jul  8 2010?  180E 54S?     RU  
+S40084 2014-039A    SS Janice Voss               2014 Aug 17 1315   Pacific       US  
+A08272 2014-040G    Falcon 9-010 Stage 2         2014 Jul 14 1620?  IOR           US  
+S40097 2014-042A    Progress M-24M               2014 Nov 19 2346   Pacific       RU  
+S40103 2014-044A    Georges Lemaitre             2015 Feb 15 1812   POR           I-ES
+A08276 2014-044B    EPS 593                      2014 Jul 30 0212?  IOR           F   
+A08240 2014-056     Falcon 9-012 Stage 2         2014 Sep 21 0655?  S POR         US  
+A08331 2015-003F    Delta 370                    2015 Jan 31 1632?  SW POR        US  
+S40392 2015-008A    Progress M-26M               2015 Aug 14 1417   47.09S 137.93WRU  
+S40713 2015-031A    Progress M-28M               2015 Dec 19 1128   Pacific       RU  
+S40873 2015-038A    Kounotori 5 gouki            2015 Sep 29 2033   S POR         J   
+A08379 2015-038B    H-2B F5 Stage 2              2015 Aug 19 1354?  155W?50S      J   
+S40944 2015-055A    Progress M-29M               2016 Apr  8 1416?  S Pacific     RU  
+A08486 2015-072     Centaur AV-061               2015 Dec  6 2245?  132E 49S?     US  
+S41101 2015-072A    SS Deke Slayton II           2016 Feb 20 1553   S Pacific     US  
+S41177 2015-080A    Progress MS-01               2016 Jul  3 0750   49 36S 128 33WRU  
+A08499 2015-081M    Falcon 9-021 Stage 2         2015 Dec 22 0225?  Indian O.     US  
+A08335 2015-U01     Vega AVUM VV04               2015 Feb 11 1610?  IOR           F   
+A08502 2016-002B    Falcon 9-019 Stage 2         2016 Jan 17 2030?  N Pacific     US  
+A08513 2016-010B    Delta 359                    2016 Feb 10 1402?  118E 53S      US  
+A08539 2016-019     Centaur AV-064               2016 Mar 23 0400?  S Ocean       US  
+S41393 2016-019A    SS Rick Husband              2016 Jun 22 1329   S POR         US  
+S41436 2016-022A    Progress MS-02               2016 Oct 14 1339   130 18W 51 42SRU  
+A08571 2016-024     Falcon 9-023 Stage 2         2016 Apr  8 2145?  124E 48S?     US  
+A08576 2016-025     Fregat No. 133-08            2016 Apr 26 0132?  S Atl         RU  
+S41468 2016-026E    Volga 14S46 No. 6            2016 Apr 28 0900?  Pacific       RU  
+A08579 2016-029B    CZ-2D Stage 2                2016 May 15 0320?  Antarctic?    CN  
+S41624 2016-042A    Yuanzheng-1A Y1              2016 Jun 27        Pacific       CN  
+S41670 2016-045A    Progress MS-03               2017 Jan 31 1824   S Pacific     RU  
+A08581 2016-046     Falcon 9-027 Stage 2         2016 Jul 18 0545?  S of Aus      US  
+A08474 2016-047B    Centaur AV-065               2016 Jul 28 2106?  160W 12N??    US  
+A08553 2016-051D    CZ-2D Stage 2                2016 Aug 15 1820?  Antarctic?    CN  
+A08397 2016-058A    Vega AVUM VV07               2016 Sep 16 0409?  Indian Ocean  F   
+S41818 2016-062A    SS Alan Poindexter           2016 Nov 27 2336   S Pacific     US  
+S41876 2016-073B    Vega AVUM VV08               2016 Dec  5 1630?  S POR         F   
+S41880 2016-075B    Delta 376                    2016 Dec  8 1100?  Philipp.Sea?  US  
+S41881 2016-076A    Kounotori 6 gouki            2017 Feb  5 1506   S Pacific     J   
+A08587 2016-076B    H-2B F6 Stage 2              2016 Dec  9 1540?  115W 48S?     J   
+A08614 2017-009     Falcon 9-032 Stage 2         2017 Feb 19 1540?  S Ocean       US  
+S42056 2017-010A    Progress MS-05               2017 Jul 20 2141   S Pacific     RU  
+A08621 2017-011B    Centaur AV-068               2017 Mar  1 1956?  103W 46S?     US  
+S42064 2017-013B    Vega AVUM VV09               2017 Mar  7 0420?  Indian Ocean  F   
+S42076 2017-016B    Delta 377                    2017 Mar 19 1230   Philipp.Sea?  US  
+A08633 2017-019     Centaur AV-070               2017 Apr 18 1618   S of Austr.   US  
+S42681 2017-019A    SS John Glenn                2017 Jun 11 1702   40S 145E?     US  
+S42684 2017-021A    Tianzhou-1                   2017 Sep 22 1000?  S POR         CN  
+S42690 2017-022B    Falcon 9-035 Stage 2         2017 May  1 1512?  50E 40S?      US  
+A08648 2017-030     Falcon 9-036 Stage 2         2017 Jun  3 2230?  S Ocean       US  
+S42756 2017-033A    Progress MS-06               2017 Dec 28 0451   S Pacific     RU  
+S42799 2017-037B    Volga 14S46 No. 3?           2017 Jun 24 1050?  S Pacific     RU  
+A08661 2017-042CB   Fregat No. 122-02            2017 Jul 14 1518   Indian O.     RU  
+A08665 2017-045     Falcon 9-040 Stage 2         2017 Aug 14 1731?  S Ocean       US  
+A08675 2017-049     Falcon 9-041 Stage 2         2017 Aug 24 2100?  S POR         US  
+A08694 2017-060B    CZ-2D Stage 2                2017 Oct  9 0455?  Antarctic     CN  
+A08698 2017-066B    Centaur AV-075               2017 Oct 15 1557   155W 12N      US  
+A09050 2017-070B    Vega AVUM VV11               2017 Nov  8 0415?  IOR?          F   
+S43006 2017-071A    SS Gene Cernan               2017 Dec 18 1254   S POR         US  
+A09070 2017-077B    CZ-2D Stage 2                2017 Dec  3 0454?  Antarctic?    CN  
+A09074 2017-080     Falcon 9-046 Stage 2         2017 Dec 15 1630?  102E 40S?     US  
+A09084 2017-084B    CZ-2D Stage 2                2017 Dec 23 0457?  Antarctic?    CN  
+A09085 2018-001A    Falcon 9-048 Stage 2         2018 Jan  8 0330?  IOR           US  
+A09086 2018-005B    Delta 379                    2018 Jan 13 0033?  S Ocean       US  
+A09087 2018-006     CZ-2D Stage 2                2018 Jan 13 0754?  Antarctic?    CN  
+A09088 2018-009B    Centaur AV-076               2018 Jan 20 1013   169W 10N?     US  
+S43191 2018-014M    Fregat No. 122-03            2018 Feb  1 0734   Indian O.     RU  
+A09091 2018-015H    CZ-2D Stage 2                2018 Feb  2 0836?  Antarctic?    CN  
+S43218 2018-020D    Falcon 9-050 Stage 2         2018 Feb 22 1730?  Pacific       US  
